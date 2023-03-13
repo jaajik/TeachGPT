@@ -30,6 +30,9 @@ _Phase #2:_
 
 > This repository provides an overview of Phase #1 of the entire project.
 
+### Features and Parameters of ChatGPT
+https://docs.google.com/document/d/1J5PkzR6e1R0jPNTvXN1PG-KUpRoAkSPQ4Sq3ISKSVrA/edit
+
 ### Libraries Used
 
 **OpenAi**

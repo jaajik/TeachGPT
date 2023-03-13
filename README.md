@@ -48,6 +48,10 @@ _Phase #2:_
 
 ***get_param():***
 
+The code above is a Python function called get_param() that takes in user input as a parameter, and parses the input to extract relevant entities and set the temperature parameter for a chatbot.
 
+The function first loads the en_core_web_md model from the spaCy library and defines a list of entities and punctuations to be removed from the input string. It then parses the input using the spaCy model and extracts entities from it. The function then removes punctuations from the input string and searches for entities in a predefined list. If an entity is found, it is added to a list of prompt characteristics.
 
-### Credits
+Next, the function calculates the temperature value based on two types of parameters: grade level and level of difficulty. The grade level is identified based on a predefined list of grade levels, and a temperature value is calculated based on the identified grade level. The level of difficulty is identified based on a predefined list of difficulty levels and the prompt characteristics. The temperature value is adjusted based on the identified level of difficulty and the identified grade level. Finally, the function returns the temperature value.
+
+Overall, this code aims to provide a method for automatically determining an appropriate temperature value for the chatGPT API based on user input.
